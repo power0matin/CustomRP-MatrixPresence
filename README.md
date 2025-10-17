@@ -21,48 +21,47 @@
   </a>
 </p>
 
-
 ## 🧩 Overview
 
 **MatrixPresence** is a clean, reusable preset system for [CustomRP](https://github.com/maximmax42/Discord-CustomRP)  
 It helps creators, developers, and sellers build **professional and brand-ready Discord Rich Presences** — fast.
 
 ### ✨ Key Features
-- 🖼️ Support for large and small image assets  
-- 🔗 Two customizable HTTPS buttons (e.g., *Store* / *Support*)  
-- 🕓 Optional live timestamp  
-- 🧾 Fully documented XML configuration  
-- 💡 Developer-friendly structure and comments  
 
+- 🖼️ Support for large and small image assets
+- 🔗 Two customizable HTTPS buttons (e.g., _Store_ / _Support_)
+- 🕓 Optional live timestamp
+- 🧾 Fully documented XML configuration
+- 💡 Developer-friendly structure and comments
 
 ## 🚀 Quick Start
 
-1. **Create a Discord Application** via the [Developer Portal](https://discord.com/developers/applications/).  
-2. Copy your **Application ID**.  
-3. Upload your images under **Rich Presence → Art Assets** (e.g., `large_image_key`, `small_image_key`).  
+1. **Create a Discord Application** via the [Developer Portal](https://discord.com/developers/applications/).
+2. Copy your **Application ID**.
+3. Upload your images under **Rich Presence → Art Assets** (e.g., `large_image_key`, `small_image_key`).
 4. Open [`/presets/CustomRP_Sample_Preset.xml`](presets/CustomRP_Sample_Preset.xml) and edit:
    - Replace `YOUR_APP_ID`
    - Update image keys (`large_image_key`, `small_image_key`)
-   - Add your own button URLs  
+   - Add your own button URLs
 5. In **CustomRP**, go to:
 
 File → Load preset → Select the XML file
 
 Then click **Connect → Update Presence**.
 
-
 ## 🛠️ Troubleshooting
 
 ### Buttons not showing?
-- ✅ Use **HTTPS** links only  
-- ✅ Ensure you’re using **your own** Application ID  
-- ✅ After editing, click **Disconnect → Connect → Update Presence**  
+
+- ✅ Use **HTTPS** links only
+- ✅ Ensure you’re using **your own** Application ID
+- ✅ After editing, click **Disconnect → Connect → Update Presence**
 - 🔄 If still missing, reload Discord (`Ctrl + R`)
 
 ### Images not rendering?
-- `LargeKey` and `SmallKey` **must match** your uploaded Art Asset names exactly  
-- Only **PNG** and **JPG** formats are supported (GIFs not allowed)
 
+- `LargeKey` and `SmallKey` **must match** your uploaded Art Asset names exactly
+- Only **PNG** and **JPG** formats are supported (GIFs not allowed)
 
 ## 📂 Repository Structure
 
@@ -76,25 +75,24 @@ CustomRP-MatrixPresence/
 └── README.md
 ```
 
-
 ## 👨‍💻 Author
 
-Created and maintained by [**@power0matin**](https://github.com/power0matin)  
+Created and maintained by [**@power0matin**](https://github.com/power0matin)
+
 > “Building clean, modular, and visually consistent systems for Discord creators.”
 
 If you find this useful, please ⭐ **star the repo** to show your support!
 
-
 ## 🔗 Useful Links
-- 🧭 **Discord Developer Portal:** [discord.com/developers/applications](https://discord.com/developers/applications/)  
-- 💻 **CustomRP GitHub Project:** [github.com/maximmax42/Discord-CustomRP](https://github.com/maximmax42/Discord-CustomRP)  
+
+- 🧭 **Discord Developer Portal:** [discord.com/developers/applications](https://discord.com/developers/applications/)
+- 💻 **CustomRP GitHub Project:** [github.com/maximmax42/Discord-CustomRP](https://github.com/maximmax42/Discord-CustomRP)
 - 🌐 **MatrixPresence Repository:** [github.com/power0matin/CustomRP-MatrixPresence](https://github.com/power0matin/CustomRP-MatrixPresence)
 
-
 ## 📄 License
+
 Released under the **MIT License** — see [`LICENSE`](LICENSE) for details.  
 You are free to use, modify, and share this project with proper credit.
-
 
 <p align="center">
   <sub>© 2025 power0matin — All rights reserved.</sub>
