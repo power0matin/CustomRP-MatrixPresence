@@ -1,0 +1,20 @@
+name: Validate XML
+
+on:
+  push:
+    paths:
+      - "**/*.xml"
+  pull_request:
+    paths:
+      - "**/*.xml"
+
+jobs:
+  xmllint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Lint XML
+        run: |
+          find . -name "*.xml" -print0 | xargs -0 -I{} xmllint --noout {}

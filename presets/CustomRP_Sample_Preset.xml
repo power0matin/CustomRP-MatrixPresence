@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ──────────────────────────────────────────────────────────────
+   Custom Rich Presence Sample Preset
+   Author: ExampleUser
+   Repository: github.com/ExampleUser/CustomRP-Presets
+   Description:
+     This XML file provides a fully-documented sample configuration
+     for Discord Custom Rich Presence using CustomRP.
+
+   Useful Links:
+     • Discord Developer Portal: https://discord.com/developers/applications/
+     • CustomRP Project Page:   https://github.com/maximmax42/Discord-CustomRP
+
+   How to Use:
+     1. Go to the Discord Developer Portal and create a new application:
+        https://discord.com/developers/applications/
+     2. Copy your Application ID.
+     3. Upload your large and small images in:
+        Rich Presence → Art Assets.
+     4. Replace the placeholders below with your own values.
+     5. Load this preset file into CustomRP.
+     6. Click “Connect” and then “Update Presence” to activate.
+
+   Notes:
+     • <Type> values:
+         0 = Playing
+         1 = Listening
+         2 = Watching
+         3 = Competing
+     • URLs must use HTTPS.
+     • Image keys must match the uploaded asset names exactly.
+  ──────────────────────────────────────────────────────────────
+-->
+
+<Preset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ─── Application Information ───────────────────────────── -->
+  <ID>YOUR_APP_ID</ID>                      <!-- Replace with your Discord Application ID -->
+  <Type>0</Type>                            <!-- 0=Playing, 1=Listening, 2=Watching, 3=Competing -->
+
+  <!-- ─── Display Text ──────────────────────────────────────── -->
+  <Details>Example Details Text</Details>   <!-- Main line (top text) -->
+  <State>Example State Text</State>         <!-- Subtext (below the details) -->
+
+  <!-- ─── Party / Timestamp Settings ─────────────────────────── -->
+  <PartySize>0</PartySize>
+  <PartyMax>0</PartyMax>
+  <Timestamps>2</Timestamps>                <!-- 0=None, 1=Since update, 2=Local time -->
+  <CustomTimestamp>2025-10-17T16:35:20</CustomTimestamp>
+
+  <!-- ─── Art Assets (Images uploaded to Discord Developer Portal) ── -->
+  <LargeKey>large_image_key</LargeKey>      <!-- Large image asset key -->
+  <LargeText>Large Image Tooltip</LargeText>
+
+  <SmallKey>small_image_key</SmallKey>      <!-- Small image asset key -->
+  <SmallText>Small Image Tooltip</SmallText>
+
+  <!-- ─── Interactive Buttons (HTTPS links only) ─────────────── -->
+  <Button1Text>First Button</Button1Text>
+  <Button1URL>https://example.com/button1</Button1URL>
+
+  <Button2Text>Second Button</Button2Text>
+  <Button2URL>https://example.com/button2</Button2URL>
+
+</Preset>
