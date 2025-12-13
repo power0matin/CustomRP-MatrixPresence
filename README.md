@@ -94,6 +94,15 @@ If you find this useful, please ⭐ **star the repo** to show your support!
 Released under the **MIT License** — see [`LICENSE`](LICENSE) for details.  
 You are free to use, modify, and share this project with proper credit.
 
+## 📬 Contact
+
+**Matin Shahabadi (متین شاه‌آبادی / متین شاه آبادی)**
+
+* Website: [matinshahabadi.ir](https://matinshahabadi.ir)
+* Email: [me@matinshahabadi.ir](mailto:me@matinshahabadi.ir)
+* GitHub: [power0matin](https://github.com/power0matin)
+* LinkedIn: [matin-shahabadi](https://www.linkedin.com/in/matin-shahabadi)
+
 <p align="center">
   <sub>© 2025 power0matin — All rights reserved.</sub>
 </p>
