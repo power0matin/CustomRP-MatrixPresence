@@ -116,3 +116,19 @@ You are free to use, modify, and share this project with proper credit.
 <p align="center">
   <sub>© 2025 power0matin — All rights reserved.</sub>
 </p>
+
+<!-- Copy-paste in your Readme.md file -->
+<p align="center">
+  <a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history?repo_id=1078273089" target="_blank" style="display: block" align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=1078273089&amp;image_size=auto&amp;color_scheme=dark" width="721" height="auto">
+      <img alt="Star History of power0matin/CustomRP-MatrixPresence" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-history/thumbnail.png?repo_id=1078273089&amp;image_size=auto&amp;color_scheme=light" width="721" height="auto">
+    </picture>
+  </a>
+</p>
+
+<!-- Made with [OSS Insight](https://ossinsight.io/) -->
+
+<p align="center">
+  Created by <a href="https://github.com/power0matin">power0matin</a>
+</p>
